@@ -1,0 +1,11 @@
+1. prolog memnaggil goal dengan nama "yang_ulang_tahun_bulan_ini" dan kemudian prolog akan mencari jawaban pada bagian clauses
+2. lalu prolog akan membaca subgoal awal, kedua dan ketiga lalu mencetak
+3. lalu prolog akan membaca kembali subgoal ke empat, yaitu date(_,Bulan,_ini,_) yg dimana prolog akan mengambil buluan pada
+sistem komputer pada variabel bulan_ini
+4. Subgoal berikutnya yaitu daftar_telepon(Orang, _, Tanggal) didalam sub goal ini terdiri dari 1 data. Dilakukan pengecekkan unifikasi pada data yang telah ada. 
+5. lalu subgoal berikutnya, yaitu cek_bulan_ulang_tahun(Bulan_ini), Tanggal), dimana var.Bulan_ini=april dan tanggal = 3 jan 1955
+6. lalu dilakukan pencocokan ,jika sesuai maka akan lanutke subgoalberikutnya , jika tidak maka akan dilakukan pencocokan kembali hingga bertemu data yang cocok
+yaitu Bulan_ini=april dan tanggal=_april_
+7. Terdapat predikat fail pada subgoal yang terakhir untuk memaksa lacak balik meski pun telah didapat solusi.
+8. lalu pada proses lacak balik ditemukan tanggal_lahir=29 apr 1951 dengan nama=ui Yansen
+ 
